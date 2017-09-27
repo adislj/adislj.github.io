@@ -10,7 +10,7 @@ tags: python
 
 　　首先添加两个的环境变量， 使用python3 -m pip -v （后面为自己的pip命令）    
 
-### Let's see
+### Let's see .
 
 
 <br />

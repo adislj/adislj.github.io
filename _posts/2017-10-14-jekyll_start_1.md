@@ -3,7 +3,6 @@ layout: post
 title: Jekyll搭建个人博客
 date: 2017-10-14 
 tags: 博客  
-categories: jekyll 随笔 
 ---
 
 　[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)

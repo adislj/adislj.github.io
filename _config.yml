@@ -1,12 +1,12 @@
 # Basic
-title: 潘柏信
+title: adislj
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: 可口可乐
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: 安全研究 / 机器学习
+url: "https://adislj.github.io/"
 
 # Comment
 comment:
@@ -15,21 +15,22 @@ comment:
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
+    weibo: adislj 
+    github: adislj
     # twitter: 
-    mail: leopardpan@icloud.com
+    twitter: AdisljAce
+    mail: adislj@163.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id:   
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3   
-    host: auto  
+#    id: UA-84134159-3   
+#    host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
@@ -49,7 +50,7 @@ highlighter: rouge
 textColor: #FF0000
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
+cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
@@ -57,13 +58,13 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
+    - {title: Archive, description: archive, url: '/archive'}   
+    - {title: Tags, description: tags, url: '/tags'}      
+    - {title: About Me, description: about, url: '/about'}      
     
 
 # Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
 

@@ -10,7 +10,7 @@ url: "https://adislj.github.io"
 
 # Comment
 comment:
-    disqus: leopard
+    disqus: adislj
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
@@ -24,12 +24,12 @@ social:
 # 使用博客模板请去掉或者更换 id 
 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id: 6b758e680c345d70cefd466a833fa2ea  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-107215294-1  
+    id: UA-107215294-1
     host: auto  
 
 

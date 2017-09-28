@@ -4,7 +4,7 @@ title: Jekyll搭建个人博客New
 date: 2017-09-27 
 tags: 博客  
 ---
-
+参考一下
 　[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
   [简书](http://www.jianshu.com/p/465830080ea9)
   [Github Page](http://baixin.io/2016/10/jekyll_tutorials1/)

@@ -9,13 +9,10 @@ title: 关于我
 了解一些前端基本概念和Python的简单用法。
 
 <p>
-
-所在公司
-<a target="_blank" href="#"> kingdee </a>
-致良知，行王道
+曾就职于华南地区最大的乙方安全厂商从事安全研究工作
+目前所在<a target="_blank" href="#"> kingdee </a>致良知，行王道
 <p>
 
-推荐一个我维护的 Team 博客
 
 <h3> 我们的博客 </h3>  
 

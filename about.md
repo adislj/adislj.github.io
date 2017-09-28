@@ -10,7 +10,8 @@ title: 关于我
 
 <p>
 曾就职于华南地区最大的乙方安全厂商从事安全研究工作
-目前所在<a target="_blank" href="#"> kingdee </a>致良知，行王道
+<p>
+目前所在<a target="_blank" href="#"> k1ngdee </a>致良知，行王道
 <p>
 
 

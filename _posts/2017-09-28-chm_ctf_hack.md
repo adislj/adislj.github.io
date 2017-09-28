@@ -70,4 +70,4 @@ ip.addr == 172.16.9.213 and tcp
 
 分享一个我制作的[免杀样本](http://pan.baidu.com/s/1jH6mid4) 密码：2qpa
 
-![File Name](http://owxlxwi6u.bkt.clouddn.com/17-9-28/86920408.jpg)
+![File Name]()

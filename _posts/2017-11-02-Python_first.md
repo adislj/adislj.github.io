@@ -13,21 +13,20 @@ tags: 编程
 ```     
 file = open('D:/GitHub/file.txt','w')
 file.write('hello world!')
-```         
+``` 
 
 |python 对文件的单词统计
 
 ```
 import string  # 引入string模块
 path = 'C:\users\Edoit\Desktop\Walden.txt'  # 设置文件路径变量
-with open(path, 'r') as text:    # 打开文件    
+with open(path, 'r') as text:    # 打开文件
     words = [raw_word.strip(string.punctuation).lower() for raw_word in text.read().split()]  # 使用列表推导式/解析式 循环遍历文档的内容以空格split and strip 标点符号 and lower的格式生成list
     words_index = set(words)     # set集合函数自动去除重复元素
     count_dict = {index: words.count(index) for index in words_index} # 创建一个以单词为key，出现次数为value的字典
 for word in sorted(count_dict, key=lambda x: count_dict[x], reverse=True): # 打印
     print('{} -- {} times'.format(word, count_dict[word]))
-
-```　　
+```
 
 ### 一些基本语法
 

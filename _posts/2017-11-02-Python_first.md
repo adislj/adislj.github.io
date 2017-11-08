@@ -2,7 +2,7 @@
 layout: post
 title: python
 date: 2017-11-02 
-tags: 编程    
+tags: 编程
 ---
 
 
@@ -15,6 +15,8 @@ file = open('D:/GitHub/file.txt','w')
 file.write('hello world!')
 ```         
 
+|python 对文件的单词统计
+
 ``` python
 import string  # 引入string模块
 
@@ -26,8 +28,7 @@ with open(path, 'r') as text:    # 以'r'打开路径
     # set集合函数自动去除重复元素
     words_index = set(words)
     # 创建一个以单词为key，出现次数为value的字典
-    count_dict = {index: words.count(index) for index in words_index}
-# 打印
+    count_dict = {index: words.count(index) for index in words_index} # 打印
 for word in sorted(count_dict, key=lambda x: count_dict[x], reverse=True):
     print('{} -- {} times'.format(word, count_dict[word]))
 ```　　

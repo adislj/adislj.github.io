@@ -17,7 +17,7 @@ file.write('hello world!')
 
 |python 对文件的单词统计
 
-```
+``` python
 import string  # 引入string模块
 path = 'C:\users\Edoit\Desktop\Walden.txt'  # 设置文件路径变量
 with open(path, 'r') as text:    # 打开文件

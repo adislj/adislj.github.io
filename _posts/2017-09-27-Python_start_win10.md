@@ -1,7 +1,7 @@
 ---
 layout: post
 title: win10部署Python3和Python2
-date: 2017-09-27 
+date: 2017-09-27
 tags: python    
 ---
 
@@ -13,12 +13,8 @@ tags: python
 ### Let's see .
 
 
-<br />
-
 ![](/images/posts/python/python_win10.png)
 
-<br />   
-           
 
-转载请注明：[adislj的博客](https://adislj.github.io) » [Markdown工具集](https://adislj.github.io/2017/09/Python_start_win10/)                   
 
+转载请注明：[adislj的博客](https://adislj.github.io) » [Python_start_win10](https://adislj.github.io/2017/09/Python_start_win10/)                   

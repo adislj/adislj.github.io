@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 一道关于chm设计ctf钓鱼的一些思考
-date: 2017-09-28 
-tags: 渗透 
+date: 2017-09-28
+tags: 渗透
 ---
 
-版权声明：本文为博主的原创文章，未经博主同意不得转载 
+版权声明：本文为博主的原创文章，未经博主同意不得转载
 
 题目：flag就是文件指向的地址
 
@@ -17,12 +17,12 @@ tags: 渗透
 比如很久以前的那些动作片种子，下载回来总会有个chm文件的图片简介在文件目录下那些充满诱惑的FBI warning，以及当你点击xxxavi.chm的时候。
 
 
-相对于pdf绑马以及之前比较新Word漏洞CVE-2017-0199。它是我所知在win下伪装的比较好的一个。可以参考 ping：[CHM渗透：从入门到“入狱”](http://www.freebuf.com/articles/system/119874.html)
+相对于pdf绑马以及之前比较新Word漏洞`CVE-2017-0199`。它是我所知在win下伪装的比较好的一个。可以参考 ping：[CHM渗透：从入门到“入狱”](http://www.freebuf.com/articles/system/119874.html)
 
 ### 介绍
 
 <br/>
-    writeup普及：CHM（Compiled HelpManual）即“已编译的帮助文件”。它是微软新一代的帮助文件格式，利用HTML作源文，把帮助内容以类似数据库的形式编译储存。
+    writeup普及：`CHM`（Compiled HelpManual）即“已编译的帮助文件”。它是微软新一代的帮助文件格式，利用HTML作源文，把帮助内容以类似数据库的形式编译储存。
 CHM支持Javascript、VBscript、ActiveX、Java Applet、Flash、常见图形文件(GIF、JPEG、PNG)、音频视频文件(MID、WAV、AVI)等等，并可以通过URL与Internet联系在一起。因为使用方便，形式多样也被采用作为电子书的格式。以及下图
 <br/>
 　![File Name](http://owxlxwi6u.bkt.clouddn.com/17-9-28/22450460.jpg) No UAC and No AV 的EXEC
@@ -30,15 +30,15 @@ CHM支持Javascript、VBscript、ActiveX、Java Applet、Flash、常见图形�
   根据这些知识，以及题目所问的，找出文件指向的地址即是后门连接的服务器就是flag。根据后门连接一般采用TCP或者DNS。这里根据自己pc的ip。
 ### 溯源
 
-![File Name](http://owxlxwi6u.bkt.clouddn.com/17-9-28/64025606.jpg) 
+![File Name](http://owxlxwi6u.bkt.clouddn.com/17-9-28/64025606.jpg)
 
 
 
 
 筛选tcp或者dns过滤大部分流量出来
-``` 
+```
 ip.addr == 172.16.9.213 and tcp
-``` 
+```
 以及一些标志符：
      SYN表示建立连接，
      FIN表示关闭连接，
@@ -70,6 +70,9 @@ ip.addr == 172.16.9.213 and tcp
 ![File Name](http://owxlxwi6u.bkt.clouddn.com/17-9-28/15747904.jpg)
 
 
-分享一个我制作的[免杀样本](http://pan.baidu.com/s/1jH6mid4) 密码：2qpa
+[免杀样本](http://pan.baidu.com/s/1jH6mid4) 密码：2qpa
 
-![File Name]()
+![File Name](https://images2015.cnblogs.com/blog/1018501/201706/1018501-20170611160711418-615773356.png)
+
+
+转载请注明：[adislj的博客](https://adislj.github.io) » [Python_start_win10](https://adislj.github.io/2017/09/chm_ctf_hack/)          

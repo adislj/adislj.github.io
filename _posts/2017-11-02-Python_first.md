@@ -1,8 +1,8 @@
 ---
 layout: post
-title: python
-date: 2017-11-02 
-tags: 编程
+title: python_first
+date: 2017-11-02
+tags: python
 ---
 
 
@@ -13,7 +13,7 @@ tags: 编程
 ```     
 file = open('D:/GitHub/file.txt','w')
 file.write('hello world!')
-``` 
+```
 
 |python 对文件的单词统计
 
@@ -48,7 +48,7 @@ H6 :###### Header 6
 引用 :> 引用内容               
 内嵌代码 : `alert('Hello World');`        
 画水平线 (HR) :--------          
-           
+
 
 css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器渲染出来的 markdown 内容样式也不一样，下面这些链接里面有 markdown 基本语法，你也可以在下面几个平台上尝试着写一些。
 

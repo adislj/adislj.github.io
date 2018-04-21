@@ -827,6 +827,9 @@ print say()  # Can you buy me a beer?
 print say(say_please=True)  # Can you buy me a beer? Please! I am poor :(
 
 ```
+
+[]
+|
 Ready For More?
 Free Online
 Automate the Boring Stuff with Python

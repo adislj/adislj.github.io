@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python_first
+title: Python_first
 date: 2017-11-02
 tags: python
 ---

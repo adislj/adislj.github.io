@@ -827,6 +827,11 @@ print say()  # Can you buy me a beer?
 print say(say_please=True)  # Can you buy me a beer? Please! I am poor :(
 
 ```
+```
+⚙ edoit@EdoitdeMacBook-Pro  ~/Desktop/Github  git config --global user.name adislj
+ ⚙ edoit@EdoitdeMacBook-Pro  ~/Desktop/Github  git config --global user.email adislj@163.com
+ ⚙ edoit@EdoitdeMacBook-Pro  ~/Desktop/Github 
+```
 
 []
 
